@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		inteiro idade = 22
+		real peso = 120.0
+		inteiro a = 0, b = 1, c = 2
+		real d, f
+		cadeia nome = "ANDRE"
+		escreva ("Seu nome é ",nome)
+		
+	}
+}
