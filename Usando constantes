@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	const caracter x = 'A'
+	escreva (x)
+	
+	const real MPPASSAR = 7.5
+	escreva (MPPASSAR)
+	}
+}
