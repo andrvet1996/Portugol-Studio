@@ -1,0 +1,13 @@
+programa
+{
+	inclua biblioteca Util	
+	funcao inicio()
+	{
+	
+		inteiro n = sorteia (1,1000)
+		escreva("Aguarde...Gerando valor...")
+		Util.aguarde(2000)
+		escreva ("Eu gerei o valor " + n)
+		escreva("...ACABOU!")
+	}
+}
