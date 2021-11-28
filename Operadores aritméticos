@@ -1,0 +1,53 @@
+programa
+{
+	
+inclua biblioteca Matematica --> mat
+	inclua biblioteca Tipos 
+	funcao inicio()
+	{
+		//escreva("4 + 2 = " + (4 + 2))
+ //+ concatenação
+		
+		//escreva("RESULTADO = " + (4 + 2))
+
+		//real preco = 123.45
+
+		//escreva("RESULTADO = " + (preco*10/100))//10% do valor
+
+		//escreva("RESULTADO = " + (preco-(preco*10/100)))
+
+		
+		//escreva("RESULTADO = " + (4 + 2)/2)
+
+		//real n1 = 3.5, n2 = 8.5
+		//real media = (n1+n2)/2
+		//escreva("A média é " + media)
+
+		//real n1,n2
+		//escreva("Primeira nota: ")
+		//leia(n1)
+		//escreva("Segunda nota: ")
+		//leia(n2)
+		//real media = (n1+n2)/2
+		//escreva("A média é " + media)
+
+		//real preco, novopreco
+		//escreva("Preço do produto: R$ ")
+		//leia(preco)
+		//novopreco = preco - (preco*30/100)
+		//escreva ("O novo preço é de R$ " + novopreco)
+
+		//inteiro n = 9
+		//real raiz = Matematica.raiz(n, 2)
+		//escreva(raiz)
+
+		//inteiro n = 9
+		//real res = Matematica.potencia(n, 3)
+		//escreva(res)
+
+		inteiro a = 15, b = 2
+		real r = Tipos.inteiro_para_real(a)/b
+		escreva(r)
+		
+	}
+}
