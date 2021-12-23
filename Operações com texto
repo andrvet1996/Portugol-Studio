@@ -1,0 +1,13 @@
+programa {
+    inclua biblioteca Texto --> txt
+	funcao inicio() {
+	    cadeia nome = "Estudonauta"
+	    escreva(txt.numero_caracteres(nome))
+	    escreva(txt.caixa_alta(nome))
+	    escreva(txt.caixa_baixa(nome))
+	    escreva(txt.obter_caracter(nome, 5))
+	    escreva(txt.extrair_subtexto(nome, 5, 8))
+	    escreva(txt.posicao_texto("a", nome, 0))
+	    escreva(txt.substituir(nome, "d", "X"))
+	}
+}
