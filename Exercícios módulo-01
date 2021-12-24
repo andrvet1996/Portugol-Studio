@@ -1,4 +1,4 @@
-//Exercíco 3-Sucessor e antecessor
+//Exercíco 003-Sucessor e antecessor
 	
 programa
 {
@@ -28,7 +28,7 @@ programa
 }
 
 
-//Exercício 4-operações aritméticas
+//Exercício 004-operações aritméticas
 programa
 {
 	
@@ -95,3 +95,39 @@ programa
 	}
 }
 
+
+Exercíco 007-cáculo de área
+programa {
+	funcao inicio() {
+	    real L, A, area, quant
+	    escreva("Largura (m): ")
+	    leia(L)
+	    escreva("Altura (m): ")
+	    leia(A)
+	    
+	    area = L * A
+	    quant = area / 2
+	    
+	    escreva("INFORMAÇÃO IMPORTANTE: 1L de tinta pinta 2m2 de parede.")
+	    escreva("\n------------------------------------------------------")
+	    escreva("\nUma parede " + L + " x " + A + " tem uma área de " + area + " m2 .")
+	    escreva("\nPrecisaremos de " + quant + " de tinta.")
+	    escreva("\n\n")
+	 
+	}
+}
+
+
+Exercício 008-desconto de 5%
+programa {
+	funcao inicio() {
+	real preco
+	escreva("Qual é o preço do produto, em R$? ")
+	leia (preco)
+	real desc = preco * 5 /100
+	real npreco = preco - desc
+	escreva ("\nO produto custava R$ " + preco + " e agora custará R$ " + npreco + ", já com desconto.")
+	escreva("\nAo todos tereremos R$ " + desc + " de economia.")
+	escreva(" \n\n")
+	}
+}
