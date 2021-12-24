@@ -1,4 +1,56 @@
-	/*Exercício 005-média*/
+//Exercíco 3-Sucessor e antecessor
+	
+programa
+{
+	
+	funcao inicio()
+	{
+	// Declaração de variáveis
+	inteiro num, ant, suc
+	
+	//Entrada de dados
+	escreva ("\nEscolha um número: ")
+	leia (num)
+
+	//Cálculos
+	ant = num - 1
+	suc = num + 1
+
+	//Resultados finais
+
+	escreva("\n********************************")
+	escreva("\nO antecessor de " + num + " é o número " + ant)//pode-se retirar a área de cálculo, pois ant=num-1
+	escreva("\nO sucessor de " + num + " é o número " + suc)
+	escreva("\n********************************")
+	escreva("\n\n")
+
+	}
+}
+
+
+//Exercício 4-operações aritméticas
+programa
+{
+	
+inclua biblioteca Tipos --> t
+	funcao inicio()
+	{
+		inteiro n, m
+		escreva ("\nEscolha um número: ")
+		leia(n)
+		escreva("\nEscolha outro número: ")
+		leia(m)
+		escreva("\n**********RESULTADOS**********")
+		escreva("\nSOMA = " + (n + m))
+		escreva("\nDIFERENÇA = " + (n - m))
+		escreva("\nQUOCIENTE = " + (t.inteiro_para_real(n)/t.inteiro_para_real(m)))
+		escreva("\nRESTO DA DIVISÃO = " + (n % m))
+		escreva("\n\n")
+	}
+}
+
+
+/*Exercício 005-média*/
 
 programa
 {
@@ -21,7 +73,7 @@ programa
 }
 
 
-	/*Exercício 006-conversão de unidades*/
+/*Exercício 006-conversão de unidades*/
 
 programa
 {
