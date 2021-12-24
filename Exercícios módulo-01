@@ -1,0 +1,45 @@
+	/*Exercício 005-média*/
+
+programa
+{
+	funcao inicio() 
+	{
+	    real n1, n2, m
+	    escreva("Digite a primeira nota: ")
+	    leia (n1)
+	    escreva("Digite a segunda nota: ")
+	    leia(n2)
+	    
+	    m = (n1 + n2) / 2
+	    
+	    escreva("\n-----ESCREVA O RESULTADO-----")
+	    escreva("\nAs notas do aluno foram " + n1 + " e " + n2)
+	    escreva("\nA média final foi " + m)
+	    escreva("\n\n")
+	   
+	}
+}
+
+
+	/*Exercício 006-conversão de unidades*/
+
+programa
+{
+	funcao inicio() 
+	{
+	    real dist
+	    escreva("Distância em metros: ")
+	    leia (dist)
+	    
+	    escreva("\n------ CONVERTENDO " + dist +  " m" +  " -------\n")
+	    escreva("\n | " + dist/1000 +  " km")
+	    escreva("\n | " + dist/100 +  " Hm")
+	    escreva("\n | " + dist/10 +  " Dam")
+	    escreva("\n | " + dist*10 +  " dm")
+	    escreva("\n | " + dist*100 +  " cm")
+	    escreva("\n v "  +  dist*1000 +  " mm")
+	    escreva("\n\n")
+	   
+	}
+}
+
