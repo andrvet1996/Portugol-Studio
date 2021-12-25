@@ -154,3 +154,27 @@ programa {
 	
 	}
 }
+
+Exercício 010-tempo de vida perdido com o cigarro
+programa {
+    inclua biblioteca Tipos --> t //troca inteiro para real
+    inclua biblioteca Matematica --> m //arredondamento
+	funcao inicio() {
+		inteiro t, quant, quant_tot, decresc
+		escreva("\nDados da OMS: cada cigarro consumido reduz 10 min da vida de um fumante.")
+		escreva("\n------------------------------------------------------------------------")
+		escreva("\nHá quantos anos você fuma?: ")
+		leia (t)
+		escreva("Quantos cigarros você fuma diariamente? ")
+		leia(quant)
+		
+	    quant_tot = (quant * 365) * t
+		decresc = t.inteiro_para_real (quant_tot) * 10 / 1440 
+		
+		
+	    escreva("\n-----------------------RESULTADO---------------------------------")
+		escreva("\nAo todo, até o momento, você já fumou " + quant_tot + " cigarros!")
+		escreva("\nEstima-se que você já perdeu " + m.arredondar (decresc, 1) + " anos de vida.")//arredonda 1 casa decimal
+		escreva("\n\n")
+	}
+}
