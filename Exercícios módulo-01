@@ -178,3 +178,22 @@ programa {
 		escreva("\n\n")
 	}
 }
+
+
+Exercício 011-contagem letras
+programa {
+    inclua biblioteca Texto --> t
+	funcao inicio() {
+	cadeia cid   
+	escreva ("\nEm que cidade você mora? ")
+	leia(cid)
+	
+	cadeia grande = t.caixa_alta(cid)
+	escreva("\n-------ANALISANDO-------")
+	escreva("\nVocê mora na cidade de " + grande)
+	escreva("\nA primeira letra é " + t.obter_caracter(grande, 0))
+	escreva("\nE contêm " + t.numero_caracteres (grande) + " letras. \n")
+	escreva("\n\n")
+	}
+}
+
